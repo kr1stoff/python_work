@@ -7,4 +7,4 @@ favorite_luaguage = {
 
 # 遍历这个字典
 for name,luaguage in favorite_luaguage.items():
-    print(name.title() + "'s favorite luaguage is ")
+    print(name.title() + "'s favorite luaguage is " + luaguage + ".")
