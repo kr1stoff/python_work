@@ -1,4 +1,4 @@
-favorite_luaguage = {
+favorite_luaguages = {
     'jen': 'python',
     'sarah': 'C',
     'edward': 'ruby',
@@ -6,9 +6,9 @@ favorite_luaguage = {
     }
 
 friends = ['phil','sarah']
-for name in favorite_luaguage.keys():
+for name in favorite_luaguages.keys():
     print(name.title())
 
     if name in friends:
         print("  Hi " + name.title() + ", I see your favorite luaguage is " \
-              + favorite_luaguage[name].title() + ".")
+              + favorite_luaguages[name].title() + ".")

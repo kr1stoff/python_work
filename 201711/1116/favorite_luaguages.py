@@ -1,4 +1,4 @@
-favorite_luaguage = {
+favorite_luaguages = {
     'jen': 'python',
     'sarah': 'C',
     'edward': 'ruby',
@@ -6,5 +6,5 @@ favorite_luaguage = {
     }
 # sarah喜欢的语言
 print("Sarah_favorite luaguage is " +
-     favorite_luaguage['sarah'].title() +
+     favorite_luaguages['sarah'].title() +
      ".")

@@ -4,7 +4,7 @@ python_dictionary = {
     'str': 'Make numeric programming strings, avoid program errors',
     'sort': 'Permanently modify list order, alphabetically',
     'for': 'The statement iterates through each element of the list',
-}
+    }
 
 # upper指令含义
 print("Upper: " + python_dictionary['upper'] + ".")
