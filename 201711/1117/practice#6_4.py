@@ -11,6 +11,7 @@ python_dictionary = {
     'del': 'Delete the elements',
     }
 
+# 遍历字典中的键和值
 for key,value in python_dictionary.items():
     print("\nKey: " + key)
     print("Value " + value)
