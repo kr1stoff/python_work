@@ -21,4 +21,4 @@ cities = {
 for city,info in cities.items():
     print("\n" + city.title() + "'s information")
     for key,value in info.items():
-        print("\t" + key.title() + ": " + value)
+        print("\t" + key.title() + ": " + value.title())
