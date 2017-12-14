@@ -1,9 +1,7 @@
-# 不要在while循环外input
-"""
+""" 不要再循环外input
 pizza_topping = input("\nPlease enter some toppings:")
 
-active = True
-while active:
+active = True while active:
     if pizza_topping == 'quit':
         active = False
     else:
@@ -41,6 +39,6 @@ prompt = "\nPlease enter some toppings:"
 while True:
     topping = input(prompt)
     if topping != 'quit':
-        print("We will add " + topping + " to the pizza.")
+        print("\nWe will add " + topping + " to the pizza.")
     else:
         break
