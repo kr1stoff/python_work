@@ -10,11 +10,11 @@ while active:
     if age == 0:
         active = False
     elif  age < 3:
-        print('free')
+        print("free")
     elif age <= 12:
-        print('$10')
+        print("$10")
     else:
-        print('$15')
+        print("$15")
 """  
 
 """ while条件测试结束循环
@@ -23,9 +23,20 @@ while  age != 0:
     age = input(age_prompt)
     age = int(age)
     if age < 3:
-        print('free') 
+        print("free") 
     elif age <= 12:
-        print('$10')
+        print("$10")
     else:
-        print('$15')
+        print("$15")
 """
+while True:
+    age = input(age_prompt)
+    age = int(age)
+    if age == 0:
+        break
+    elif age < 3:
+        print("free")
+    elif age <= 12:
+        print("$10")
+    else:
+        print("$15")
